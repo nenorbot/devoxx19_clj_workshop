@@ -246,6 +246,9 @@ my-list
 (.append sb "world")
 (.toString sb)
 
+;; static methods can also be called:
+(Integer/parseInt "123")
+
 ;;;;;;;;;;;;;;;;;;
 ;;;;;; data ;;;;;;
 ;;;;;;;;;;;;;;;;;;
