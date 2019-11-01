@@ -214,6 +214,8 @@ my-list
 
 ;; exercise
 
+;; Collatz sequence: 12, 6, 3, 10, 5, 16, 8, 4, 2, 1
+
 (defn collatz
   "Returns a lazy sequence of `n`'s Collatz sequence.
   Hint: use `iterate`"
